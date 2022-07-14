@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="2023 QS World University Rankings", page_icon=":post_office:")
+st.set_page_config(page_title="2023 QS World University Rankings", page_icon=":post_office:", layout="wide")
 st.title("2023 QS WORLD UNIVERSITY RANKINGS")
 data = pd.read_csv("2023 QS World University Rankings.csv")
 
